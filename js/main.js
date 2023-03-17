@@ -8,10 +8,10 @@ const getCard = async()=>{
     let chartArray = test.results
     console.log(chartArray)
     chartArray.forEach(item =>{
-        let{id, name, species,location, status, image, origin} = item
+        let{id, name, species, location, status, image, origin} = item
         console.log(id, name, species,location, status, image, origin)
         let divCol = document.createElement('div')
-        divCol.classList.add(..."col-6 col-md-6 col-lg-4 pb-4".split(" "))
+        divCol.classList.add(..."col-12 col-md-6 col-lg-6 pb-4".split(" "))
         let info = createCard(id, name, species,location, status, image, origin)
         divCol.append(info)
         wrapper.append(divCol)

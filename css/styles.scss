@@ -1,0 +1,43 @@
+h1,
+.card-name {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+.all-cards-body{
+    background: rgb(39, 43, 51);
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    font-size: 1rem;
+    color: rgb(32, 35, 41);
+}
+
+.card-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-name,
+.card-location,
+.card-origin {
+    color: rgb(32, 35, 41);
+}
+
+.card-name:hover,
+.card-origin:hover {
+    color: rgb(255, 152, 0);
+}
